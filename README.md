@@ -11,7 +11,7 @@
 # 学习与交流
 一般会先在公众号上更新文章，再同步到站点里。成功的路上并不拥挤，有没有兴趣结个伴？欢迎加我微信：`chenmingyong1999`，或关注公众号：
 
-![微信公众号：程序员陈明勇](/wx-gzh-qrcode.jpeg)
+![微信公众号：程序员陈明勇](https://raw.githubusercontent.com/chenmingyong0423/blog/master/images/wx-gzh-qrcode.jpeg)
 
 如果您对文章有疑惑或发现错误，请在特定章节的评论区留言，或添加我的微信备注 **“go book”** 进交流群探讨。
 
