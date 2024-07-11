@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: 陈明勇的博客
       link: https://chenmingyong.cn
+  image:
+    src: /go-path-to-mastery-book-logo.png
+    alt: "Go 语言成长之路：从入门到精通"
 features:
 - title: 基础知识
   details: 你可以在这本书里学到 Go 语言的基础知识，包括 Go 的基本语法、数据类型、函数以及错误处理等内容。

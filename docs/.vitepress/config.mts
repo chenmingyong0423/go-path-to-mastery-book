@@ -4,7 +4,7 @@ export default defineConfig({
   title: "Go 语言成长之路：从入门到精通",
   description: "Go 语言成长之路：从入门到精通，本书籍的内容将会涵盖基础知识、进阶技巧和原理剖析等多个方面。",
   head: [
-    // ['link', { rel: 'icon', type: 'image/png', href: '' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/go-path-to-mastery-book-logo.png' }],
     // [ 'meta', { name: 'google-site-verification', content: '' } ],
     // [ 'meta', { name: 'baidu-site-verification', content: '' } ],
     [ 'meta', { name: 'author', content: '陈明勇' } ],
@@ -13,8 +13,8 @@ export default defineConfig({
     ['meta', { property: 'og:title', content: 'Go 语言成长之路：从入门到精通' }],
     ['meta', { property: 'og:site_name', content: 'Go 语言成长之路：从入门到精通' }],
     ['meta', { property: 'og:author', content: '陈明勇' }],
-    // ['meta', { property: 'og:image', content: '' }],
-    // ['meta', { property: 'og:url', content: '' }],
+    ['meta', { property: 'og:image', content: '/go-path-to-mastery-book-logo.png' }],
+    ['meta', { property: 'og:url', content: '/go-path-to-mastery-book-logo.png' }],
   ],
   themeConfig: {
     nav: [],
