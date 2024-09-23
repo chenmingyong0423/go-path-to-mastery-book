@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /introduction
+      link: /book/introduction
     - theme: alt
       text: 陈明勇的博客
       link: https://chenmingyong.cn
