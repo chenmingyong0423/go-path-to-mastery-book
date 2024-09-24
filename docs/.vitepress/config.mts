@@ -15,6 +15,7 @@ export default defineConfig({
         ['meta', {property: 'og:author', content: '陈明勇'}],
         ['meta', {property: 'og:image', content: '/go-path-to-mastery-book-logo.png'}],
         ['meta', {property: 'og:url', content: '/go-path-to-mastery-book-logo.png'}],
+        [ 'meta', { name: 'baidu-site-verification', content: 'codeva-5DNuMvfSGH' } ],
     ],
     themeConfig: {
         nav: [],

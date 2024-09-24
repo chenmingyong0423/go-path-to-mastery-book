@@ -6,7 +6,7 @@
 如果有其他地方需要引用到本书的内容，希望能保留原作者的信息和地址，感谢支持！
 
 # 在线阅读
-待填写
+[https://gopathtomastery.chenmingyong.cn](https://gopathtomastery.chenmingyong.cn)
 
 # 学习与交流
 一般会先在公众号上更新文章，再同步到站点里。成功的路上并不拥挤，有没有兴趣结个伴？欢迎加我微信：`chenmingyong1999`，或关注公众号：
