@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Go 语言成长之路：从入门到精通"
   text: 
-  tagline: "Go 语言成长之路：从入门到精通，本书籍的内容将会涵盖基础知识、进阶技巧和原理剖析等多个方面。"
+  tagline: "Go 语言成长之路：从入门到精通，本书籍的内容将会涵盖 Go 语言基础知识、进阶技巧和原理剖析等多个方面。"
   actions:
     - theme: brand
       text: 开始阅读
