@@ -55,6 +55,7 @@ export default defineConfig({
                                     },
                                     {
                                         text: '1.2.2 Hello World 程序',
+                                        link: '/hello-world'
                                     },
                                     {
                                         text: '1.2.3 Go 程序的基本结构'
