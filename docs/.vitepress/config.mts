@@ -134,27 +134,14 @@ export default defineConfig({
                                 ]
                             },
                             {
-                                text: '2.2 Go 内存管理与性能优化',
+                                text: '2.2 Go 标准库详解',
                                 collapsed: true,
                                 items: [
-                                    { text: '2.2.1 内存分配与垃圾回收机制' },
-                                    { text: '2.2.2 内存剖析与性能优化' },
-                                    { text: '2.2.3 基准测试与性能测试（testing 包）' },
-                                    { text: '2.2.4 Go 的逃逸分析' }
+                                    { text: '待编辑...' },
                                 ]
                             },
                             {
-                                text: '2.3 Go 标准库详解',
-                                collapsed: true,
-                                items: [
-                                    { text: '2.3.1 常用标准库概述' },
-                                    { text: '2.3.2 fmt、strings、time、errors 包使用' },
-                                    { text: '2.3.3 net/http 网络库详解' },
-                                    { text: '2.3.4 文件与 I/O 操作' }
-                                ]
-                            },
-                            {
-                                text: '2.4 Go 语言工具链',
+                                text: '2.3 Go 语言工具链',
                                 collapsed: true,
                                 items: [
                                     { text: '2.4.1 Go Modules 依赖管理' },
@@ -220,31 +207,29 @@ export default defineConfig({
                                 text: '4.1 使用 Go 构建 Web 应用',
                                 collapsed: true,
                                 items: [
-                                    { text: '4.1.1 基于 net/http 的 Web 服务器' },
-                                    { text: '4.1.2 路由管理与中间件实现' },
-                                    { text: '4.1.3 RESTful API 的构建' }
+                                    { text: '待编辑...' }
                                 ]
                             },
                             {
                                 text: '4.2 数据库操作',
                                 collapsed: true,
                                 items: [
-                                    { text: '4.2.1 Go 中的数据库驱动与 ORM 框架' },
-                                    { text: '4.2.2 使用 GORM 进行数据库操作' },
-                                    { text: '4.2.3 数据库事务与连接池管理' }
+                                    { text: '待编辑...' }
                                 ]
                             },
                             {
                                 text: '4.3 微服务架构与 Go',
                                 collapsed: true,
                                 items: [
-                                    { text: '4.3.1 微服务架构概述' },
-                                    { text: '4.3.2 使用 gRPC 构建微服务' },
-                                    { text: '4.3.3 Go 语言中的服务发现与负载均衡' }
+                                    { text: '待编辑...' }
                                 ]
                             }
                         ]
                     },
+                    {
+                        text: '第五部分：Go 源码剖析',
+                        items: [{text: '待编辑...'}]
+                    }
                 ]
             }
         },
