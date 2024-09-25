@@ -14,7 +14,7 @@ hero:
       text: 陈明勇的博客
       link: https://chenmingyong.cn
   image:
-    src: /go-path-to-mastery-book-logo.png
+    src: /go-path-to-mastery-book-logo.jpeg
     alt: "Go 语言成长之路：从入门到精通"
 features:
 - title: 基础知识
