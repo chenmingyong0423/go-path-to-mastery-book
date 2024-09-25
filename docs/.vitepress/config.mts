@@ -54,22 +54,43 @@ export default defineConfig({
                         items: [
 
                             {
-                                text: '2.2 第一个Go程序：Hello, World!',
+                                text: '2.1 第一个Go程序：Hello, World!',
                                 link: '/hello-world'
                             },
                             {
-                                text: '2.3 数据类型、常量与变量'
+                                text: '2.2 数据类型'
+                            },
+                            {
+                                text: '2.3 常量与变量'
                             },
                             {
                                 text: '2.4 控制结构'
                             },
                             {
                                 text: '2.5 函数与方法'
+                            },
+
+                        ]
+                    },
+                    {
+                        text: '第三章 数据结构',
+                        base: '/book/go-data-structure',
+                        collapsed: true,
+                        items: [
+                            {
+                                text: '3.1 数组与切片'
+                            },
+                            {
+                                text: '3.2 映射（map）'
+                            },
+                            {
+                                text: '3.3 结构体与接口'
                             }
                         ]
                     },
                     {
-                        text: '第三章 错误处理',
+                        text: '第四章 错误处理',
+                        base: '/book/go-error',
                         collapsed: true,
                         items: [
                             {
@@ -112,19 +133,23 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: '第七章 项目实战',
+                        text: '第七章 测试与调试',
+                        collapsed: true,
+                    },
+                    {
+                        text: '第八章 项目实战',
                         collapsed: true,
                         items: [
                             {
-                                text: '7.1 构建 Web 应用'
+                                text: '8.1 构建 Web 应用'
                             },
                             {
-                                text: '7.2 MySQL 数据库操作'
+                                text: '8.2 MySQL 数据库操作'
                             }
                         ]
                     },
                     {
-                        text: '第八章：原理剖析',
+                        text: '第九章：原理剖析',
                         collapsed: true,
                     },
                     {
