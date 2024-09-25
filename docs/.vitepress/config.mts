@@ -15,17 +15,17 @@ export default defineConfig({
         ['meta', {property: 'og:author', content: '陈明勇'}],
         ['meta', {property: 'og:image', content: '/go-path-to-mastery-book-logo.png'}],
         ['meta', {property: 'og:url', content: '/go-path-to-mastery-book-logo.png'}],
-        [ 'meta', { name: 'baidu-site-verification', content: 'codeva-5DNuMvfSGH' } ],
+        ['meta', {name: 'baidu-site-verification', content: 'codeva-5DNuMvfSGH'}],
     ],
     themeConfig: {
         nav: [],
         outline: {
             level: [2, 6]
         },
-        sidebar:{
+        sidebar: {
             '/book': {
                 base: '/book',
-                items:  [
+                items: [
                     {
                         text: '前言',
                         items: [
@@ -33,202 +33,103 @@ export default defineConfig({
                         ]
                     },
                     {
-                        text: '第一部分：Go 语言基础',
-                        base: '/book/go-basic',
+                        text: '第一章 Go 语言概述',
+                        collapsed: true,
+                        base: '/book/go',
                         items: [
                             {
                                 text: '1.1 Go 语言简介',
-                                collapsed: true,
-                                items: [
-                                    {
-                                        text: '1.1.1 Go 语言介绍',
-                                        link: '/go-language-introduction'
-                                    },
-                                ]
+                                link: '/go-language-introduction'
                             },
                             {
-                                text: '1.2 入门 Go 语言',
-                                collapsed: true,
-                                items: [
-                                    {
-                                        text: '1.2.1 安装与配置环境',
-                                        link: '/go-installation',
-                                    },
-                                    {
-                                        text: '1.2.2 Hello World 程序',
-                                        link: '/hello-world'
-                                    },
-                                    {
-                                        text: '1.2.3 Go 程序的基本结构'
-                                    },
-                                    {
-                                        text: "1.2.4 Go Modules 管理依赖"
-                                    }
-                                ]
-                            },
-                            {
-                                text: '1.3 基本语法',
-                                collapsed: true,
-                                items: [
-                                    {
-                                        text: '1.3.1 数据类型',
-                                    },
-                                    {
-                                        text: '1.3.2 常量与变量',
-                                    },
-                                    {
-                                        text: '1.3.3 控制结构（条件语句、循环）'
-                                    },
-                                    {
-                                        text: '1.3.4 切片与数组',
-                                    },
-                                    {
-                                        text: '1.3.5 映射（map）',
-                                    }
-                                ]
-                            },
-                            {
-                                text: '1.4 函数与包',
-                                collapsed: true,
-                                items: [
-                                    {
-                                        text: '1.4.1 函数定义与调用',
-                                    },
-                                    {
-                                        text: '1.4.2 包的导入与使用',
-                                    },
-                                    {
-                                        text: '1.4.3 错误处理和Panic/Recover',
-                                    }
-                                ]
-                            },
-                            {
-                                text: '1.5 结构体与接口',
-                                collapsed: true,
-                                items: [
-                                    {
-                                        text: '1.5.1 定义结构体',
-                                    },
-                                    {
-                                        text: '1.5.2 方法与接收器',
-                                    },
-                                    {
-                                        text: '1.5.3 接口的定义与实现',
-                                    }
-                                ]
+                                text: '1.2 安装与环境配置',
+                                link: '/go-installation'
                             }
                         ]
                     },
                     {
-                        text: '第二部分：Go 语言进阶',
+                        text: '第二章 基础语法',
+                        base: '/book/go-basic',
+                        collapsed: true,
+                        items: [
+
+                            {
+                                text: '2.2 第一个Go程序：Hello, World!',
+                                link: '/hello-world'
+                            },
+                            {
+                                text: '2.3 数据类型、常量与变量'
+                            },
+                            {
+                                text: '2.4 控制结构'
+                            },
+                            {
+                                text: '2.5 函数与方法'
+                            }
+                        ]
+                    },
+                    {
+                        text: '第三章 错误处理',
+                        collapsed: true,
                         items: [
                             {
-                                text: '2.1 Go 并发编程',
-                                collapsed: true,
-                                items: [
-                                    { text: '2.1.1 Goroutine 的基础概念与使用' },
-                                    { text: '2.1.2 通道（Channel）与数据传递' },
-                                    { text: '2.1.3 Select 语句' },
-                                    { text: '2.1.4 并发中的同步与互斥（sync 包）' },
-                                    { text: '2.1.5 Context 上下文管理' }
-                                ]
+                                text: '3.1 错误的定义与处理',
                             },
                             {
-                                text: '2.2 Go 标准库详解',
-                                collapsed: true,
-                                items: [
-                                    { text: '待编辑...' },
-                                ]
+                                text: '3.3 自定义错误类型',
                             },
                             {
-                                text: '2.3 Go 语言工具链',
-                                collapsed: true,
-                                items: [
-                                    { text: '2.4.1 Go Modules 依赖管理' },
-                                    { text: '2.4.2 gofmt 和 lint 代码格式化与检查' },
-                                    { text: '2.4.3 性能分析与调优（pprof、trace）' }
-                                ]
+                                text: '3.2 panic 与 recover',
+                            },
+                            {
+                                text: '3.4 处理常见错误的最佳实践',
                             }
                         ]
+
                     },
                     {
-                        text: '第三部分：Go 语言高级特性',
+                        text: '第四章 并发编程',
+                        collapsed: true,
                         items: [
                             {
-                                text: '3.1 泛型编程（Go 1.18+）',
-                                collapsed: true,
-                                items: [
-                                    { text: '3.1.1 泛型基础概念' },
-                                    { text: '3.1.2 泛型函数与泛型类型' },
-                                    { text: '3.1.3 泛型应用场景及实践' }
-                                ]
+                                text: '4.1 Goroutine',
                             },
                             {
-                                text: '3.2 Go 中的反射机制',
-                                collapsed: true,
-                                items: [
-                                    { text: '3.2.1 反射的基本原理' },
-                                    { text: '3.2.2 使用反射实现动态操作' },
-                                    { text: '3.2.3 反射的优势与局限' }
-                                ]
-                            },
-                            {
-                                text: '3.3 Go 语言的接口设计模式',
-                                collapsed: true,
-                                items: [
-                                    { text: '3.3.1 Go 中的常见设计模式' },
-                                    { text: '3.3.2 使用接口实现解耦与扩展' }
-                                ]
-                            },
-                            {
-                                text: '3.4 Go 测试与调试',
-                                collapsed: true,
-                                items: [
-                                    {
-                                        text: '3.3.1 使用 go test 和 testify 框架',
-                                    },
-                                    {
-                                        text: '3.3.2 编写单元测试',
-                                    },
-                                    {
-                                        text: '3.3.3 编写基准测试',
-                                    },
-                                    {
-                                        text: '3.3.4 代码调试工具（delve 的使用）'
-                                    }
-                                ]
+                                text: '4.2 Channel',
                             }
                         ]
                     },
                     {
-                        text: '第四部分：Go 语言项目实战',
+                        text: '第五章 标准库',
+                    },
+                    {
+                        text: '第六章 高级特性',
+                        collapsed: true,
                         items: [
                             {
-                                text: '4.1 使用 Go 构建 Web 应用',
-                                collapsed: true,
-                                items: [
-                                    { text: '待编辑...' }
-                                ]
-                            },
-                            {
-                                text: '4.2 数据库操作',
-                                collapsed: true,
-                                items: [
-                                    { text: '待编辑...' }
-                                ]
-                            },
-                            {
-                                text: '4.3 微服务架构与 Go',
-                                collapsed: true,
-                                items: [
-                                    { text: '待编辑...' }
-                                ]
+                                text: '6.1 Go 中的反射机制'
                             }
                         ]
                     },
                     {
-                        text: '第五部分：Go 源码剖析',
-                        items: [{text: '待编辑...'}]
+                        text: '第七章 项目实战',
+                        collapsed: true,
+                        items: [
+                            {
+                                text: '7.1 构建 Web 应用'
+                            },
+                            {
+                                text: '7.2 MySQL 数据库操作'
+                            }
+                        ]
+                    },
+                    {
+                        text: '第八章：原理剖析',
+                        collapsed: true,
+                    },
+                    {
+                        text: '目录结构持续更新调整中...',
+                        collapsed: true,
                     }
                 ]
             }
