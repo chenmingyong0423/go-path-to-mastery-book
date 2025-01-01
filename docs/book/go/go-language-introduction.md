@@ -28,8 +28,14 @@ description: Go 语言介绍。
 - 云计算和分布式系统：大量云计算平台和分布式系统使用 `Go` 开发。
 - 工具开发：许多命令行工具和开发工具使用 `Go` 编写。
 
-## Go 语言官方网站
+## 学习资源
 
-`Go` 语言有一个非常详细和易于使用的官方网站，你可以在上面找到官方文档、教程、下载链接等资源。以下是 `Go` 语言官网的链接：
+`Go` 语言有一个官方网站，你可以在上面找到官方文档、教程、下载链接等资源。以下是 `Go` 语言官网的链接：
 
-[Go Programming Language](https://go.dev/)
+- [Go Programming Language](https://go.dev/)
+- [Go Programming Language（国内地址）](https://golang.google.cn/)
+
+你可以通过以下网站在线运行简单的 `Go` 代码：
+
+- [The Go Playground](https://go.dev/play/)
+- [The Go Playground（国内地址）](https://golang.google.cn/play/)
