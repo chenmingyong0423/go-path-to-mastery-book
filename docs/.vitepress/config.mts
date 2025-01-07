@@ -1,7 +1,7 @@
 import {defineConfig} from 'vitepress'
 
 export default defineConfig({
-    title: "Go语言成长之路-从入门到精通",
+    title: "Go 语言成长之路：从入门到精通",
     description: "Go 语言成长之路：从入门到精通，本书籍的内容将会涵盖基础知识、进阶技巧和原理剖析等多个方面。",
     head: [
         ['link', {rel: 'icon', type: 'image/png', href: '/go-path-to-mastery-book-logo.jpeg'}],
