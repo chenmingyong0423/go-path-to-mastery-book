@@ -5,7 +5,7 @@ export default defineConfig({
     description: "Go 语言成长之路：从入门到精通，本书籍的内容将会涵盖基础知识、进阶技巧和原理剖析等多个方面。",
     head: [
         ['link', {rel: 'icon', type: 'image/png', href: '/go-path-to-mastery-book-logo.jpeg'}],
-        // [ 'meta', { name: 'google-site-verification', content: '' } ],
+        [ 'meta', { name: 'google-site-verification', content: '9usIdasQ-ixw53AAdX9Zr03IJp1fdr9PVY1iNODixBQ' } ],
         // [ 'meta', { name: 'baidu-site-verification', content: '' } ],
         ['meta', {name: 'author', content: '陈明勇'}],
         ['meta', {property: 'og:type', content: 'website'}],
