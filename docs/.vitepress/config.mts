@@ -6,7 +6,7 @@ export default defineConfig({
     head: [
         ['link', {rel: 'icon', type: 'image/png', href: '/go-path-to-mastery-book-logo.jpeg'}],
         [ 'meta', { name: 'google-site-verification', content: '9usIdasQ-ixw53AAdX9Zr03IJp1fdr9PVY1iNODixBQ' } ],
-        // [ 'meta', { name: 'baidu-site-verification', content: '' } ],
+        [ 'meta', { name: 'baidu-site-verification', content: 'codeva-b5ytsapwD7' } ],
         ['meta', {name: 'author', content: '陈明勇'}],
         ['meta', {property: 'og:type', content: 'website'}],
         ['meta', {property: 'og:locale', content: 'zh'}],
